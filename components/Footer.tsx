@@ -1,5 +1,4 @@
-import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="flex-col md:flex-row flex justify-between gap-8 md:gap-16 w-full max-w-[1400px] mx-auto px-6 py-12">
@@ -52,9 +51,9 @@ const Footer = () => {
               name=""
               id=""
               placeholder="Enter your email address.."
-              className="border border-[#E5E5E5] w-full focus:border-[#3D00B7] outline-none h-full mt-6 px-3 py-2 rounded-full"
+              className="border border-[#E5E5E5] w-full focus:border-[#3d00b7] outline-none h-full mt-6 px-3 py-2 rounded-full"
             />
-            <button className=" absolute top-[55%] right-2 py-2 px-6 border border-[#3D00B7] bg-[#3D00B7] text-white rounded-full ">
+            <button className=" absolute top-[55%] right-2 py-2 px-6 border border-[#3d00b7] bg-[#3d00b7] text-white rounded-full ">
               Subscibe Now
             </button>
           </div>

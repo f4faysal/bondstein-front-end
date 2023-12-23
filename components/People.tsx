@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 const People = () => {
   return (
@@ -71,7 +70,7 @@ const People = () => {
           dictum sit tristique sed non. Lacinia lorem id consectetur pretium
           diam ut. Pellentesque eu sit blandit fringilla risus faucibus.
         </p>
-        <button className="w-[40%] md:w-[25%] py-2 px-6 border border-[#3D00B7] bg-[#3D00B7] text-white rounded-full ">
+        <button className="w-[40%] md:w-[25%] py-2 px-6 border border-[#3d00b7] bg-[#3d00b7] text-white rounded-full ">
           Sign Up Now
         </button>
       </div>

@@ -1,10 +1,9 @@
 "use client";
 
- 
 // icons
-import { MdFilterList } from "react-icons/md";
 import Image from "next/image";
 import { useState } from "react";
+import { MdFilterList } from "react-icons/md";
 import { data } from "./data";
 const DiscoverNft = () => {
   const [active, setActive] = useState(0);
@@ -38,8 +37,8 @@ const DiscoverNft = () => {
             <button
               onClick={() => setActive(0)}
               className={` ${
-                active === 0 ? "bg-[#3D00B7] text-white " : "bg-none"
-              } py-[0.3rem] md:py-[0.5rem] px-4 border text-[#3D00B7]  border-[#3D00B7] rounded-full`}
+                active === 0 ? "bg-[#3d00b7] text-white " : "bg-none"
+              } py-[0.3rem] md:py-[0.5rem] px-4 border text-[#3d00b7]  border-[#3d00b7] rounded-full`}
             >
               All Categories
             </button>
@@ -47,8 +46,8 @@ const DiscoverNft = () => {
             <button
               onClick={() => setActive(1)}
               className={`${
-                active === 1 ? "bg-[#3D00B7] text-white " : "bg-none"
-              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3D00B7] text-[#3D00B7]  rounded-full`}
+                active === 1 ? "bg-[#3d00b7] text-white " : "bg-none"
+              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3d00b7] text-[#3d00b7]  rounded-full`}
             >
               Art
             </button>
@@ -56,8 +55,8 @@ const DiscoverNft = () => {
             <button
               onClick={() => setActive(2)}
               className={`${
-                active === 2 ? "bg-[#3D00B7] text-white " : "bg-none"
-              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3D00B7] text-[#3D00B7]  rounded-full`}
+                active === 2 ? "bg-[#3d00b7] text-white " : "bg-none"
+              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3d00b7] text-[#3d00b7]  rounded-full`}
             >
               Celebrities
             </button>
@@ -65,8 +64,8 @@ const DiscoverNft = () => {
             <button
               onClick={() => setActive(3)}
               className={`${
-                active === 3 ? "bg-[#3D00B7] text-white " : "bg-none"
-              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3D00B7] text-[#3D00B7]  rounded-full`}
+                active === 3 ? "bg-[#3d00b7] text-white " : "bg-none"
+              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3d00b7] text-[#3d00b7]  rounded-full`}
             >
               Gaming
             </button>
@@ -74,8 +73,8 @@ const DiscoverNft = () => {
             <button
               onClick={() => setActive(4)}
               className={`${
-                active === 4 ? "bg-[#3D00B7] text-white " : "bg-none"
-              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3D00B7] text-[#3D00B7]  rounded-full`}
+                active === 4 ? "bg-[#3d00b7] text-white " : "bg-none"
+              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3d00b7] text-[#3d00b7]  rounded-full`}
             >
               Sport
             </button>
@@ -83,8 +82,8 @@ const DiscoverNft = () => {
             <button
               onClick={() => setActive(5)}
               className={`${
-                active === 5 ? "bg-[#3D00B7] text-white " : "bg-none"
-              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3D00B7] text-[#3D00B7]  rounded-full`}
+                active === 5 ? "bg-[#3d00b7] text-white " : "bg-none"
+              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3d00b7] text-[#3d00b7]  rounded-full`}
             >
               Music
             </button>
@@ -92,14 +91,14 @@ const DiscoverNft = () => {
             <button
               onClick={() => setActive(6)}
               className={`${
-                active === 6 ? "bg-[#3D00B7] text-white " : "bg-none"
-              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3D00B7] text-[#3D00B7]  rounded-full`}
+                active === 6 ? "bg-[#3d00b7] text-white " : "bg-none"
+              } py-[0.3rem] md:py-[0.5rem] px-4 border border-[#3d00b7] text-[#3d00b7]  rounded-full`}
             >
               Crypto
             </button>
           </div>
 
-          <div className="flex items-center gap-2 text-[#3D00B7]">
+          <div className="flex items-center gap-2 text-[#3d00b7]">
             <MdFilterList className="text-[1.5rem]" />
             <p className="text-[16px]">All Filters</p>
           </div>
@@ -107,7 +106,7 @@ const DiscoverNft = () => {
 
         {/* cards */}
         <div className="w-full h-full grid grid-cols-1 md:grid-cols-4 gap-10 mt-10">
-          {filteredData?.map((singleCard , i) => (
+          {filteredData?.map((singleCard, i) => (
             <div key={i} className=" bg-white rounded-md p-3">
               <div className="w-full h-[70%] relative ">
                 <Image
@@ -171,10 +170,10 @@ const DiscoverNft = () => {
                 </div>
 
                 <div className="flex items-center justify-between mt-4">
-                  <button className="py-[0.5rem] px-5  border-none text-[#3D00B7]  rounded-full bg-[#F5F5F5] text-[10px]">
+                  <button className="py-[0.5rem] px-5  border-none text-[#3d00b7]  rounded-full bg-[#F5F5F5] text-[10px]">
                     3h 50m 2s left
                   </button>
-                  <p className="text-[#3D00B7] text-[15px]">Place a bid</p>
+                  <p className="text-[#3d00b7] text-[15px]">Place a bid</p>
                 </div>
               </div>
             </div>
@@ -182,7 +181,7 @@ const DiscoverNft = () => {
         </div>
 
         <div className="flex items-center justify-center w-full mt-12">
-          <button className=" py-2 px-6 border border-[#3D00B7] text-[#3D00B7]  rounded-full ">
+          <button className=" py-2 px-6 border border-[#3d00b7] text-[#3d00b7]  rounded-full ">
             Load NFTs
           </button>
         </div>

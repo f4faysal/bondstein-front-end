@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 const FirstCollection = () => {
   return (
@@ -80,7 +79,7 @@ const FirstCollection = () => {
                   1 of 8
                 </p>
               </div>
-              <button className="py-1 md:py-2 px-4 border border-[#3D00B7] text-white bg-[#3D00B7]  rounded-full mt-4 text-[0.8rem] md:text-[0.9rem]">
+              <button className="py-1 md:py-2 px-4 border border-[#3d00b7] text-white bg-[#3d00b7]  rounded-full mt-4 text-[0.8rem] md:text-[0.9rem]">
                 Place a bid
               </button>
             </div>
@@ -120,7 +119,7 @@ const FirstCollection = () => {
                   1 of 8
                 </p>
               </div>
-              <button className="py-1 md:py-2 px-4 border border-[#3D00B7] text-[#3D00B7]   rounded-full mt-4 text-[0.8rem] md:text-[0.9rem]">
+              <button className="py-1 md:py-2 px-4 border border-[#3d00b7] text-[#3d00b7]   rounded-full mt-4 text-[0.8rem] md:text-[0.9rem]">
                 Place a bid
               </button>
             </div>
@@ -160,7 +159,7 @@ const FirstCollection = () => {
                   1 of 8
                 </p>
               </div>
-              <button className="py-1 md:py-2 px-6 border border-[#3D00B7] text-[#3D00B7]  rounded-full mt-4 text-[0.8rem] md:text-[0.9rem]">
+              <button className="py-1 md:py-2 px-6 border border-[#3d00b7] text-[#3d00b7]  rounded-full mt-4 text-[0.8rem] md:text-[0.9rem]">
                 Place a bid
               </button>
             </div>
@@ -174,7 +173,7 @@ const FirstCollection = () => {
           <h2 className="font-[800] text-[20px] md:text-[23px]">
             Top Collections over{" "}
           </h2>
-          <p className="text-[15px] md:text-[18px] font-bold text-[#3D00B7]">
+          <p className="text-[15px] md:text-[18px] font-bold text-[#3d00b7]">
             Last 7 days
           </p>
         </div>

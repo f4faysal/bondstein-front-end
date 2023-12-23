@@ -58,7 +58,7 @@ const Collection = () => {
                   />
                   <p className="text-[0.9rem] md:text-[1rem]">by Arkhan</p>
                 </div>
-                <button className="py-1 px-4 border border-[#3D00B7] text-[#3D00B7]   rounded-full mt-4 text-[0.9rem]">
+                <button className="py-1 px-4 border border-[#3d00b7] text-[#3d00b7]   rounded-full mt-4 text-[0.9rem]">
                   Total 54 Items
                 </button>
               </div>
@@ -114,7 +114,7 @@ const Collection = () => {
                   />
                   <p className="text-[0.9rem] md:text-[1rem]">by Arkhan</p>
                 </div>
-                <button className="py-1 px-4 border border-[#3D00B7] text-[#3D00B7]   rounded-full mt-4 text-[0.9rem]">
+                <button className="py-1 px-4 border border-[#3d00b7] text-[#3d00b7]   rounded-full mt-4 text-[0.9rem]">
                   Total 54 Items
                 </button>
               </div>
@@ -170,7 +170,7 @@ const Collection = () => {
                   />
                   <p className="text-[0.9rem] md:text-[1rem]">by Arkhan</p>
                 </div>
-                <button className="py-1 px-4 border border-[#3D00B7] text-[#3D00B7]   rounded-full mt-4 text-[0.9rem]">
+                <button className="py-1 px-4 border border-[#3d00b7] text-[#3d00b7]   rounded-full mt-4 text-[0.9rem]">
                   Total 54 Items
                 </button>
               </div>
