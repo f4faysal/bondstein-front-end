@@ -4,7 +4,7 @@ import PrimaryButton from "./ui/primaryButton";
 const HeroSection = () => {
   return (
     <main className="flex flex-col md:flex-row py-20 justify-between   ">
-      <div className="w-1/2 flex flex-col ">
+      <div className=" md:w-1/2 flex flex-col ">
         <h2 className="text-[45px] md:text-5xl font-bold leading-[50px] md:leading-[60px] uppercase">
           Discover, and collect Digital Art NFTs
         </h2>
@@ -42,6 +42,13 @@ const HeroSection = () => {
       </div>
 
       <div className="w-full relative  md:block hidden md:mt-0 mt-[6rem] md:w-[430px]">
+        <Image
+          src="/nftlogo.png"
+          alt="image"
+          width={1000}
+          height={1000}
+          className=" absolute z-40   left-[-63px] top-[60%] w-[100px] md:w-[100px]"
+        />
         <div>
           <Image
             src="/hero3.png"
