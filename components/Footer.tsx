@@ -1,154 +1,65 @@
-import Image from "next/image";
-import Link from "next/link";
-
-import { BiLogoLinkedin } from "react-icons/bi";
-import { BsFacebook, BsTwitter } from "react-icons/bs";
-import { FcGoogle } from "react-icons/fc";
-import { IoMail } from "react-icons/io5";
-import { MdCall } from "react-icons/md";
-import Container from "./ui/container";
-
+import React from "react";
+import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="bg-[#EBF6FF]">
-      <Container>
-        <div className="pt-48 pb-10">
-          <div className="grid grid-cols-1 md:grid-cols-6  gap-4 px-10">
-            <div className=" md:col-span-3 ">
-              <h1 className="text-[20px] font-bold mb-1 text-[#26aae1]">
-                Discover
-              </h1>
-
-              <ul className="list-none">
-                <li className="text-1xl hover:text-[#0091FF]">
-                  {" "}
-                  <Link href="/">Home</Link>
-                </li>
-                <li className="text-1xl hover:text-[#0091FF]">
-                  {" "}
-                  <Link href="/packages">Packages</Link>
-                </li>
-                <li className="text-1xl hover:text-[#0091FF]">
-                  {" "}
-                  <Link href="/contact">Contact</Link>
-                </li>
-
-                <li className=" text-[#26aae1] hover:text-[#0091FF] mt-2">
-                  {" "}
-                  <Link href="mailto:info@estateease.com">
-                    <span className="flex items-center gap-2">
-                      <IoMail /> info@estateease.com
-                    </span>
-                  </Link>
-                </li>
-                <li className="text-[#26aae1] hover:text-[#0091FF]">
-                  {" "}
-                  <Link href="tel:+12 3456 7890">
-                    <span className="flex items-center gap-2">
-                      <MdCall /> + 12 3456 7890
-                    </span>
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h1 className="text-[20px] font-bold mb-1 text-[#26aae1]">
-                Payment Methods
-              </h1>
-              <div className="flex gap-3 mt-4 ">
-                <div>
-                  <Image
-                    src="/assets/logos-mastercard.png"
-                    alt="mastercard"
-                    width={30}
-                    height={30}
-                  />
-                </div>
-                <div className="flex justify-center items-center">
-                  <Image
-                    src="/assets/vector.png"
-                    alt="mastercard"
-                    width={30}
-                    height={30}
-                  />
-                </div>
-                <div className="flex justify-center items-center">
-                  <Image
-                    src="/assets/bkash-log.png"
-                    alt="mastercard"
-                    width={40}
-                    height={20}
-                  />
-                </div>
-                <div className="flex justify-center items-center">
-                  <Image
-                    src="/assets/nagad-logo.png"
-                    alt="mastercard"
-                    width={40}
-                    height={25}
-                  />
-                </div>
-              </div>
-            </div>
-            <div>
-              <h1 className="text-[20px] font-bold mb-1 text-[#26aae1]">
-                Help ?
-              </h1>
-              <p className="text-[#384652] font-semibold">
-                We are Always here for you! Knock us on Messenger anytime or
-                Call our Hotline (10AM - 11PM).
-              </p>
-            </div>
-            <div>
-              <h1 className="text-[20px] font-bold mb-1 text-[#26aae1]">
-                Address
-              </h1>
-              <ul className="list-none">
-                <li className="">123 Lorem Ipsum Street</li>
-                <li className="">Jakarta, Indonesia</li>
-              </ul>
-              <div className="mt-10 flex justify-between">
-                <div className="h-10 w-10  border   rounded-full flex items-center justify-center ">
-                  <Link href="/" className="text-[#4267B2] text-4xl">
-                    <BsFacebook />
-                  </Link>
-                </div>
-                <div className="h-10 w-10  border border-[#26aae1] rounded-full flex items-center justify-center ">
-                  <Link href="/" className="text-[#1DA1F2] text-xl">
-                    <BsTwitter />
-                  </Link>
-                </div>
-                <div className="h-10 w-10  border border-[#26aae1] rounded-full flex items-center justify-center ">
-                  <Link href="/" className="text-xl">
-                    <FcGoogle />
-                  </Link>
-                </div>
-                <div className="h-10 w-10  border border-[#26aae1] rounded-full flex items-center justify-center ">
-                  <Link href="/" className="text-[#0A66C2] text-xl">
-                    <BiLogoLinkedin />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <hr className="h-px mt-8 mb-2 bg-black border-0 " />
-          <div className="md:flex md:justify-between text-center md:px-20 items-center">
-            <div className="text-2xl font-bold">
-              <h1>
-                <Link href="/">
-                  <span className="text-[#384652]">Estate</span>
-                  <span className="text-[#26aae1]"> Ease</span>
-                </Link>
-              </h1>
-            </div>
-            <div>
-              <p className="text-[#384652] font-semibold">
-                © Copyright 2023 Estate Ease
-              </p>
-            </div>
+    <footer className="flex-col md:flex-row flex justify-between gap-8 md:gap-16 w-full max-w-[1400px] mx-auto px-6 py-12">
+      <div className="flex gap-3 md:gap-4 flex-col w-full md:w-[30%]">
+        <h2 className="font-[800] text-[24px] uppercase">NFters</h2>
+        <p>
+          The world’s first and largest digital marketplace for crypto
+          collectibles and non-fungible tokens (NFTs). Buy, sell, and discover
+          exclusive digital items.
+        </p>
+        <div className="flex items-center gap-5">
+          <FaFacebookF className="w-[25px] h-[25px] cursor-pointer bg-[#3B5998] text-white p-1 rounded-full" />
+          <FaTwitter className="w-[25px] h-[25px] cursor-pointer bg-[#55ACEE] text-white p-1 rounded-full" />
+          <FaLinkedinIn className="w-[25px] h-[25px] cursor-pointer bg-[#007AB9] text-white p-1 rounded-full" />
+        </div>
+      </div>
+      <div className="flex-col md:flex-row flex gap-6 justify-between w-full md:w-[70%]">
+        <div>
+          <h3 className="font-[600] text-[18px]">Market Place</h3>
+          <ul className="footerUl text-[14px] flex gap-1 mt-4 md:mt-6 flex-col">
+            <li>All NFTs</li>
+            <li>New</li>
+            <li>Art</li>
+            <li>Sports</li>
+            <li>Utility</li>
+            <li>Music</li>
+            <li>Domain</li>
+            <li>Name</li>
+          </ul>
+        </div>
+        <div>
+          <h3 className="font-[600] text-[18px]">My Account</h3>
+          <ul className="footerUl  text-[14px] flex gap-1 mt-4 md:mt-6 flex-col">
+            <li>Profile</li>
+            <li>Favorite</li>
+            <li>My</li>
+            <li>Collections</li>
+            <li>Settings</li>
+          </ul>
+        </div>
+        <div className="w-full md:w-[50%]">
+          <h3 className="font-[600] text-[18px]">Stay in the loop</h3>
+          <p className="text-[14px] mt-4 md:mt-6">
+            Join our mailing list to stay in the loop with our newest feature
+            releases, NFT drops, and tips and tricks for navigating NFTs.
+          </p>
+          <div className=" relative w-full h-[60px]">
+            <input
+              type="search"
+              name=""
+              id=""
+              placeholder="Enter your email address.."
+              className="border border-[#E5E5E5] w-full focus:border-[#3D00B7] outline-none h-full mt-6 px-3 py-2 rounded-full"
+            />
+            <button className=" absolute top-[55%] right-2 py-2 px-6 border border-[#3D00B7] bg-[#3D00B7] text-white rounded-full ">
+              Subscibe Now
+            </button>
           </div>
         </div>
-      </Container>
+      </div>
     </footer>
   );
 };

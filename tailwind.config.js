@@ -10,6 +10,7 @@ module.exports = withUt({
     "./src/**/*.{ts,tsx}",
   ],
   theme: {
+   
     container: {
       center: true,
       padding: "2rem",
@@ -22,7 +23,7 @@ module.exports = withUt({
         "hero-pattern": "url('/herobg.png')",
       },
       colors: {
-        
+         
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
