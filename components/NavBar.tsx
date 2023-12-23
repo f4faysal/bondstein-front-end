@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <nav className="border-b  bg-white/90  sticky top-0 z-50">
       <Container>
-        <div className="hidden md:flex items-center justify-between w-full h-[70px]  py-3 px-8    ">
+        <div className="hidden md:flex items-center justify-between w-full h-[70px]  py-3 ">
           <div className="flex gap-8">
             {/* logo */}
             <Link href="/">
