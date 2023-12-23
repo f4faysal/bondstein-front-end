@@ -29,7 +29,7 @@ const DiscoverNft = () => {
   return (
     <div className="bg-[#D9E0EC33] w-full ">
       <div className="w-full max-w-[1400px] px-6 mx-auto py-16 mt-[8rem]">
-        <h3 className="font-[800] text-[23px] md:text-[34px]">
+        <h3 className="font-[800] text-[23px] md:text-[34px] uppercase">
           Discover more NFTs
         </h3>
         <div className="flex-col md:flex-row gap-8 flex items-center justify-between w-full">
@@ -116,35 +116,35 @@ const DiscoverNft = () => {
                   alt="Image"
                   className="w-full h-full object-cover"
                 />
-                <div className=" absolute left-[2%] top-[38%] md:top-[25%] flex items-center">
+                <div className=" absolute left-[2%] top-[35%] md:top-[30%] flex items-center">
                   <div className=" relative w-[220px] h-[220px]">
                     <Image
                       width={1000}
                       height={1000}
                       src="/discover1.png"
                       alt=""
-                      className=" absolute left-[0%] bottom-0"
+                      className=" absolute left-[0%] bottom-0 w-9"
                     />
                     <Image
                       width={1000}
                       height={1000}
                       src="/discover2.png"
                       alt=""
-                      className=" absolute left-[8%] bottom-0"
+                      className=" absolute left-[8%] bottom-0 w-9"
                     />
                     <Image
                       width={1000}
                       height={1000}
                       src="/discover3.png"
                       alt=""
-                      className=" absolute left-[16%] bottom-0"
+                      className=" absolute left-[16%] bottom-0 w-9"
                     />
                     <Image
                       width={1000}
                       height={1000}
                       src="/discover4.png"
                       alt=""
-                      className=" absolute left-[24%] bottom-0"
+                      className=" absolute left-[24%] bottom-0 w-9"
                     />
                   </div>
                 </div>
@@ -182,7 +182,7 @@ const DiscoverNft = () => {
 
         <div className="flex items-center justify-center w-full mt-12">
           <button className=" py-2 px-6 border border-[#3d00b7] text-[#3d00b7]  rounded-full ">
-            Load NFTs
+            Load NFTS
           </button>
         </div>
       </div>

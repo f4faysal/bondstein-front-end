@@ -9,17 +9,17 @@ const NavBar = () => {
   return (
     <nav className="border-b  bg-white/90  sticky top-0 z-50">
       <Container>
-        <div className="hidden md:flex items-center justify-between w-full h-[70px]  py-3 ">
+        <div className="flex items-center justify-between w-full h-[70px]  py-3     ">
           <div className="flex gap-8">
             {/* logo */}
             <Link href="/">
-              <h1 className=" text-[#3d00b7] uppercase font-bold text-[1.5rem]">
+              <h1 className=" ml-2 md:ml-0 text-[#3d00b7] uppercase font-bold text-[1.5rem]">
                 nfters
               </h1>
             </Link>
 
             {/* nav items */}
-            <ul className="footerUl flex items-center gap-10 font-semibold  ">
+            <ul className="flex items-center gap-3 md:gap-10 font-semibold  ">
               <li className="hover:text-[#3d00b7] cursor-pointer">
                 Marketplace
               </li>
@@ -28,7 +28,7 @@ const NavBar = () => {
             </ul>
           </div>
 
-          <div className="flex items-center gap-5">
+          <div className="hidden md:flex items-center gap-5">
             {/* search bar */}
             <div className=" relative">
               <input

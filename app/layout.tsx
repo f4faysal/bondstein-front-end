@@ -1,5 +1,3 @@
-import Providers from "@/lib/providers";
-import { ToastProvider } from "@/lib/toast-provider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -18,12 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Providers>
-          <ToastProvider />
-          {children}
-        </Providers>
-      </body>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
